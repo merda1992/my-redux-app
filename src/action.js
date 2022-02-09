@@ -11,10 +11,10 @@ const inc = () => {
     }
   };
   
-  const rnd = (numb) => {
+  const rnd = () => {
     return {
       type: 'RND',
-      payload: numb
+      payload: Math.floor(Math.random() * 10)
     }
   };
 
